@@ -66,7 +66,7 @@ static sp_session_config spconfig = {
 /* -------------------------  END SESSION CALLBACKS  ----------------------- */
 
 
-static int login(char *user, char *pass)
+int login(char *user, char *pass)
 {
     sp_session *sp;
 	sp_error err;
