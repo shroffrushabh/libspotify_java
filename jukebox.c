@@ -126,7 +126,7 @@ int main()
 			exit(1);
 		}
 	}*/
-s    printf("%d - value\n",login(username,password));
+    printf("%d - value\n",login(username,password));
     
 	return 0;
 }
